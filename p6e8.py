@@ -1,7 +1,6 @@
-#Yannick p6e7 Escribe un programa que pida un número (límite) y luego te pida
-#números hasta que la suma de los números introducidos supere el límite inicial. El programa termina escribiendo la lista de números.
+#Yannick p6e8 Escribe un programa que te pida primero un número y luego te pida números hasta que la suma de los números introducidos coincida con el número inicial. El programa termina escribiendo la lista de números.
 
-limite = int(input("Escribe el limite"))
+limite = int(input("Escribe limite:"))
 
 valores = int(input("Escribe un valor:"))
 
@@ -17,4 +16,7 @@ print(f"El limite a superar es {limite}. La lista creada es ", end="")
 for i in range(len(listavalores)):
     print (listavalores[i], end=" ")
 print(f"ya que la suma de estos numeros es {sum(listavalores)}")
+
+
+
 
